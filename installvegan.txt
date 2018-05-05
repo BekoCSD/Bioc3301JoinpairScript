@@ -1,0 +1,19 @@
+#First Step
+conda install R
+
+#Second step
+module load R-3.3.1-gcc-6.2.0-zjrjm3s
+
+#Third step
+R
+
+#Fourth step
+install.packages("devtools")
+devtools::install_github("joey711/biomformat")
+
+#Fifth step
+library("devtools)
+install_github("biom","joey711")
+
+#Location choice
+Select 64 for London
